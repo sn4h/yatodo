@@ -2,7 +2,6 @@
 import {useTaskStore} from "@/store/TaskStore";
 import TaskDetails from "@/components/TaskDetails.vue";
 import TaskForm from "@/components/TaskForm.vue";
-import {ref} from "vue";
 import TaskList from "@/components/TaskList.vue";
 import TaskFilter from "@/components/TaskFilter.vue";
 import TheMain from "@/components/TheMain.vue";
