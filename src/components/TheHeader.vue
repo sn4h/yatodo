@@ -13,10 +13,10 @@ export default {
 </script>
 
 <template>
-    <header class="header">
-        <img class="header__img" src="../assets/pinia-logo.svg" alt="">
-        <h1 class="header__heading">{{ taskStore.name }}</h1>
-    </header>
+  <header class="header">
+    <img class="header__img" src="../assets/pinia-logo.svg" alt="">
+    <h1 class="header__heading">{{ taskStore.name }}</h1>
+  </header>
 </template>
 
 <style scoped>

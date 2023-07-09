@@ -15,6 +15,8 @@ export default {
           id: Math.floor(Math.random() * 1000000) // poor man's hash
         })
         newTask.value = ''
+      } else {
+        // Show alert modal
       }
     }
     return {
@@ -32,7 +34,7 @@ export default {
             placeholder="I need to..."
             v-model="newTask"
         >
-        <button type="submit">Add</button>
+        <button>Add</button>
     </form>
 </template>
 

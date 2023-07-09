@@ -15,21 +15,21 @@ export default {
 </script>
 
 <template>
-    <nav class="filter">
-        <button @click.prevent="filter = 'all'">
-            All tasks
-        </button>
-        <button @click.prevent="filter = 'favorite'">
-            Favorites
-        </button>
-    </nav>
+  <nav class="filter">
+    <button @click.prevent="filter = 'all'">
+      All tasks
+    </button>
+    <button @click.prevent="filter = 'favorite'">
+      Favorites
+    </button>
+  </nav>
 </template>
 
 <style scoped>
 @media screen and (max-width: 29rem) {
-    .filter {
-        display: flex;
-        justify-content: center;
-    }
+  .filter {
+    display: flex;
+    justify-content: center;
+  }
 }
 </style>

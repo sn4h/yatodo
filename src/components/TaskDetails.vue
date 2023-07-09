@@ -16,23 +16,23 @@ export default {
 </script>
 
 <template>
-    <div class="task">
-        <h3 class="task__heading">{{ task.title }}</h3>
-        <div class="task__icons">
-            <i
-                @click="taskStore.deleteTask(task.id)"
-                class="material-icons"
-            >
-                delete
-            </i>
-            <i
-                @click="taskStore.toggleFav(task.id)"
-                class="material-icons"
-                :class="{active: task.isFav }">
-                favorite
-            </i>
-        </div>
+  <div class="task">
+    <h3 class="task__heading">{{ task.title }}</h3>
+    <div class="task__icons">
+      <i
+        @click="taskStore.deleteTask(task.id)"
+        class="material-icons"
+      >
+        delete
+      </i>
+      <i
+        @click="taskStore.toggleFav(task.id)"
+        class="material-icons"
+        :class="{active: task.isFav }">
+        favorite
+      </i>
     </div>
+  </div>
 </template>
 
 <style scoped>
